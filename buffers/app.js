@@ -14,3 +14,6 @@ log(memoryContainer[0]);
 log(memoryContainer[1]);
 log(memoryContainer[2]);
 log(memoryContainer[3]);
+
+const buff = Buffer.from("486921", "hex");
+log(buff.toString("utf-8"));
